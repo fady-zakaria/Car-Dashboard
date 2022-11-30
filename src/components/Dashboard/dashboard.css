@@ -1,0 +1,30 @@
+.dashboard {
+  grid-area: 2 / 2 / 3 / 3;
+  margin-top: 60px;
+  padding: 0px 30px;
+  padding-bottom: 50px;
+}
+
+.statics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  margin-top: 2rem;
+}
+
+.stats {
+  background: white;
+  padding: 30px;
+  border-radius: 5px;
+  height: 320px;
+  padding-bottom: 50px;
+  width: 505px;
+}
+
+.recomm-cars {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 2rem;
+  column-gap: 2rem;
+  margin-top: 65px;
+}

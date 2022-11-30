@@ -1,0 +1,63 @@
+.settings {
+  grid-area: 2 / 2 / 3 / 3;
+  margin-top: 20px;
+  padding: 0px 30px;
+  padding-bottom: 50px;
+
+  .settings-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 29px 46px 22px 34px;
+    gap: 48px;
+    width: 951px;
+    height: 834px;
+    background: #ffffff;
+    .settings-top {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 30px;
+
+      .settings-title {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 39px;
+        color: #242731;
+        padding-left: 14px;
+      }
+
+      .settings-tabs {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 48px;
+
+        .settings-btn {
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 23px;
+          color: #5f6165;
+          border: none;
+          outline: none;
+          background: transparent;
+          padding: 10px 14px;
+          height: 35px;
+          cursor: pointer;
+
+          &:hover {
+            background: rgba(161, 98, 247, 0.1);
+            border-radius: 4px;
+            color: #242731;
+          }
+        }
+      }
+    }
+  }
+}

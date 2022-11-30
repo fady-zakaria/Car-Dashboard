@@ -1,0 +1,219 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  padding-left: 14px;
+  gap: 24px;
+
+  .profile-line {
+    margin-top: 24px;
+    width: 951px;
+    height: 1px;
+    background: #e9eaec;
+    border: none;
+    outline: none;
+  }
+
+  .profile-top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    .profile-title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 6px;
+
+      .title {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        color: #242731;
+      }
+
+      .title-desc {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #5f6165;
+      }
+    }
+
+    .profile-address {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 30px;
+
+      label {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #7c7c8d;
+      }
+      input {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #5f6165;
+        margin-left: 13px;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        width: inherit;
+      }
+      .live-in-wrap-input {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 14px;
+        gap: 10px;
+        border: 1px solid #e9eaec;
+        border-radius: 10px;
+        width: 312px;
+        height: 48px;
+      }
+      .live-in {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 36px;
+
+        .live-in-wrap {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 0px;
+          gap: 10px;
+          width: 376px;
+          height: 76px;
+        }
+        .street-addr-wrap {
+          @extend .live-in-wrap;
+        }
+
+        .street-addr-wrap-input {
+          @extend .live-in-wrap-input;
+        }
+      }
+
+      .email-address {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 10px;
+        margin-top: 30px;
+        width: 724px;
+
+        .email-address-input {
+          @extend .live-in-wrap-input;
+          width: inherit;
+        }
+      }
+      .dobAndGender {
+        @extend .live-in;
+        margin-top: 30px;
+      }
+
+      .photo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 338px;
+        margin-top: 24px;
+
+        .photo-wrapper {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 0px;
+          gap: 75px;
+
+          .photo-title-wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 4px;
+
+            .photo-title {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 21px;
+              color: #242731;
+            }
+
+            .photo-desc {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 21px;
+              color: #7c7c8d;
+            }
+          }
+        }
+        .photo-buttons {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          padding: 0px;
+          gap: 22px;
+
+          .del-btn {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            color: #7c7c8d;
+            padding: 2px;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+
+            &:hover {
+              background-color: #bfbfcb37;
+            }
+          }
+
+          .update-btn {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            padding: 2px;
+            font-size: 14px;
+            line-height: 18px;
+            color: #a162f7;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+
+            &:hover {
+              background-color: #bfbfcb37;
+            }
+          }
+        }
+      }
+    }
+  }
+}

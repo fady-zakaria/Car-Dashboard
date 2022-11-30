@@ -1,0 +1,140 @@
+.sellcars {
+  grid-area: 2 / 2 / 3 / 3;
+  margin-top: 20px;
+  padding: 0px 30px;
+  padding-bottom: 50px;
+}
+
+.sellcars-title {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  color: #242731;
+  width: 302px;
+  height: 39px;
+  margin-bottom: 30px;
+}
+.sell-cars-top {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+}
+
+.sell-car {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 25px 43px;
+  gap: 10px;
+
+  /* width: 557px;
+  height: 298px; */
+  width: 657px;
+  height: 398px;
+
+  background: #ffffff;
+  border-radius: 14px;
+}
+
+.sell-car p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  color: #242731;
+}
+
+.sell-car img {
+  /* width: 445.51px;
+  height: 316.53px; */
+  width: 545.51px;
+  height: 316.53px;
+  margin: auto;
+}
+
+.track-history {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 26px 24px;
+  gap: 10px;
+  width: 345px;
+  height: 398px;
+  background: #ffffff;
+  border-radius: 14px;
+}
+
+.track-history p {
+  width: 189px;
+  height: 31px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+
+  color: #000000;
+}
+
+.track-history-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 25px;
+
+  width: 297px;
+  height: 100%;
+}
+
+.sell-cars-bottom {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 2rem;
+  margin-top: 30px;
+}
+
+.offers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 605px;
+}
+
+.offers p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+
+  color: #242731;
+}
+
+.offer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 23px 29px;
+  gap: 10px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.offer-item-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 66px;
+
+  width: 972px;
+  height: 101px;
+}
